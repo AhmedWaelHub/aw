@@ -55,4 +55,4 @@ This project uses modern web standards including:
 
 ## License
 
-Project, 2026
+This project is open for use and modification. Please give credit to the original creator. © 2026
