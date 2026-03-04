@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ahmed Wael" />
+    <meta
+      name="description"
+      content="Frontend Developer | Building Responsive, Interactive Web Apps with high quality and high performance"
+    />
+    <meta
+      name="keywords"
+      content="resume, cv, portfolio, projects, frontend developer, ahmed wael"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="/assets/images/Icon.png"
+      type="image/x-icon"
+    />
+
+    <title>Ahmed Wael | Frontend Developer</title>
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="/css/global.css" />
+    <!-- Layout Styles -->
+    <link rel="stylesheet" href="/css/layout.css" />
+    <!-- Sections Styles -->
+    <link rel="stylesheet" href="/css/sections.css" />
+    <!-- Main Script -->
+    <script type="module" src="/js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Mouse Point -->
+    <div class="mouse-tracker" aria-hidden="true" id="mouse-tracker"></div>
+
+    <!-- Skip Header Links -->
+    <a href="#hero" class="visually-hidden">Skip Menu Links</a>
+
+    <!-- Page Controls -->
+    <div class="controls" aria-label="Page Controls">
+      <button
+        id="control-menu"
+        aria-label="Open Menu"
+        class="controls_menu btn btn--primary grid"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Page Wrapper -->
+    <div class="wrapper">
+      <!-- Start Navbar -->
+      <nav class="navbar section">
+        <ul class="navbar_menu flex animated">
+          <li class="navbar_item">
+            <a href="/#hero" class="navbar_link navbar_link-active">Home</a>
+          </li>
+          <li class="navbar_item">
+            <a href="/#about" class="navbar_link">About</a>
+          </li>
+          <li class="navbar_item">
+            <a href="/#skills" class="navbar_link">skills</a>
+          </li>
+          <li class="navbar_item">
+            <a href="/#projects" class="navbar_link">Projects</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Start Main Content -->
+
+      <main class="main" id="main">
+        <!-- Start Hero -->
+        <section
+          class="hero section items-center"
+          id="hero"
+          aria-label="Introduce The Hero"
+        >
+          <h1 class="hero_title text-center animated">
+            I’m Ahmed Wael<br />
+            Front End Developer
+          </h1>
+          <p class="hero_description text-center animated">
+            My goal is to create high-quality web applications,<br />
+            with great performance and make my clients happy.
+          </p>
+          <a href="" class="hero_btn btn btn--primary animated">Download CV</a>
+          <img
+            src="/assets/images/hero.webp"
+            alt=""
+            width="180"
+            height="180"
+            loading="lazy"
+            class="hero_image rounded-full animated"
+          />
+        </section>
+
+        <!-- Start About -->
+        <section
+          class="about section items-center"
+          id="about"
+          aria-label="About"
+        >
+          <h2 class="about_title animated">About Me</h2>
+          <div class="about_content row box animated">
+            <p class="about_content-text">
+              I’m studying in the Faculty of Computer Science, and I have
+              experience in web development.
+            </p>
+            <p class="about_content-text">
+              I’m very passionate about web development, and enjoy creating
+              responsive and high performance frontend projects.
+            </p>
+          </div>
+
+          <ul class="about_info list-none row animated">
+            <li class="about_info-item box flex align-center content-between">
+              <span class="about_info-title">Languages</span>
+              <span class="about_info-description tags-item"
+                >Arabic, English</span
+              >
+            </li>
+            <li class="about_info-item box flex align-center content-between">
+              <span class="about_info-title">Residence</span>
+              <span class="about_info-description tags-item">Egypt</span>
+            </li>
+            <li class="about_info-item box flex align-center content-between">
+              <span class="about_info-title">Age</span>
+              <span class="about_info-description tags-item">21</span>
+            </li>
+          </ul>
+
+          <ul class="about_social list-none row flex flex-wrap animated">
+            <li class="about_social-item">
+              <a
+                href="https://github.com/AhmedWaelHub"
+                target="_blank"
+                class="about_social-link btn btn--secondary"
+              >
+                <img
+                  src="/assets/icons/github.svg"
+                  alt="Github"
+                  width="24"
+                  height="24"
+                  loading="lazy"
+                  class="about_social-icon"
+                />
+              </a>
+            </li>
+            <li class="about_social-item">
+              <a
+                href="mailto:aw.outbox@gmail.com"
+                target="_blank"
+                class="about_social-link btn btn--secondary"
+              >
+                <img
+                  src="/assets/icons/email.svg"
+                  alt="Email"
+                  width="24"
+                  height="24"
+                  loading="lazy"
+                  class="about_social-icon"
+                />
+              </a>
+            </li>
+            <li class="about_social-item">
+              <a
+                href="https://github.com/AhmedWaelHub"
+                target="_blank"
+                class="about_social-link btn btn--secondary"
+              >
+                <img
+                  src="/assets/icons/x.svg"
+                  alt="X (Twitter)"
+                  width="24"
+                  height="24"
+                  loading="lazy"
+                  class="about_social-icon"
+                />
+              </a>
+            </li>
+            <li class="about_social-item">
+              <a
+                href="https://github.com/AhmedWaelHub"
+                target="_blank"
+                class="about_social-link btn btn--secondary"
+              >
+                <img
+                  src="/assets/icons/youtube.svg"
+                  alt="Youtube"
+                  width="24"
+                  height="24"
+                  loading="lazy"
+                  class="about_social-icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Start Skills -->
+        <section
+          class="skills section items-center"
+          id="skills"
+          aria-label="Skills"
+        >
+          <h2 class="skills_title animated">Skills</h2>
+          <div class="skills_box row box animated">
+            <div class="skills_box-head flex">
+              <img
+                src="/assets/icons/monitor-mac.svg"
+                class="skills_box-icon"
+                width="32"
+                height="32"
+                loading="lazy"
+                alt=""
+              />
+              <h3 class="skills_box-title">Frontend Development</h3>
+            </div>
+            <p class="skills_box-description">
+              building high-performance, responsive frontend interfaces with
+              clean, efficient code. Make SEO and accessibility optimized,
+              ensuring fast, inclusive, and user-friendly web experiences.
+            </p>
+            <ul class="skills_box-tags flex flex-wrap list-none">
+              <li class="tags-item">HTML</li>
+              <li class="tags-item">CSS</li>
+              <li class="tags-item">JavaScript</li>
+              <li class="tags-item">TypeScript</li>
+              <li class="tags-item">Tailwind</li>
+              <li class="tags-item">React</li>
+            </ul>
+          </div>
+          <div class="skills_box row box animated">
+            <div class="skills_box-head flex">
+              <img
+                src="/assets/icons/colour-palette.svg"
+                class="skills_box-icon"
+                width="32"
+                height="32"
+                loading="lazy"
+                alt=""
+              />
+              <h3 class="skills_box-title">UI & UX Design</h3>
+            </div>
+            <p class="skills_box-description">
+              Skilled in crafting intuitive and visually engaging UI/UX designs
+              that enhance user experience. Proficient in Figma for creating
+              interactive prototypes and seamless design workflows.
+            </p>
+            <ul class="skills_box-tags flex flex-wrap list-none">
+              <li class="tags-item">UI & UX</li>
+              <li class="tags-item">Figma</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Start Projects -->
+        <section
+          class="projects section items-center"
+          id="projects"
+          aria-label="Projects"
+        >
+          <h2 class="projects_title animated">Projects</h2>
+          <div class="projects_list grid">
+            <div class="projects_item box grid animated">
+              <img
+                src="/assets/images/lasles-vpn.webp"
+                class="projects_item-image"
+                alt=""
+                width="1707"
+                height="960"
+                loading="lazy"
+              />
+              <div class="projects_item-content grid align-content-between">
+                <a
+                  href="https://ahmedwaelhub.github.io/LaslesVPN"
+                  target="_blank"
+                  class="projects_item-link"
+                  >LaslesVPN Landing Template To VPN Company</a
+                >
+                <span class="projects_item-category">Front End</span>
+              </div>
+            </div>
+            <div class="projects_item box grid animated">
+              <img
+                src="/assets/images/remind-me-app.webp"
+                class="projects_item-image"
+                alt=""
+                width="1707"
+                height="960"
+                loading="lazy"
+              />
+              <div class="projects_item-content grid align-content-between">
+                <a
+                  href="https://ahmedwaelhub.github.io/Remind-Me"
+                  target="_blank"
+                  class="projects_item-link"
+                  >Remind Me - Landing Page to Mobile App</a
+                >
+                <span class="projects_item-category">Front End</span>
+              </div>
+            </div>
+            <div class="projects_item box grid animated">
+              <img
+                src="/assets/images/aw-profile.webp"
+                class="projects_item-image"
+                alt=""
+                width="1707"
+                height="960"
+                loading="lazy"
+              />
+              <div class="projects_item-content grid align-content-between">
+                <a
+                  href="https://www.ahmedwael.space"
+                  target="_blank"
+                  class="projects_item-link"
+                  >Portfolio Template UI UX Design</a
+                >
+                <span class="projects_item-category">Front End & UI-UX</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Start Footer -->
+
+      <section
+        class="footer flex section items-center"
+        id="footer"
+        aria-label="Footer"
+      >
+        <p><span>All Rights Reversed By</span> Ahmed Wael</p>
+      </section>
+    </div>
+  </body>
+</html>

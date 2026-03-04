@@ -1,0 +1,73 @@
+/***************************
+  Start About Section 
+**************************/
+@media (max-width: 31.25rem) {
+  .about_info-item {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+}
+
+.about_info-title {
+  font-weight: var(--fw-bold);
+  color: var(--text-white);
+  line-height: normal;
+}
+
+.about_social-item {
+  flex-grow: 1;
+}
+
+.about_social-link {
+  width: 100%;
+}
+
+/***************************
+  Start Skills Section
+**************************/
+.skills_box-description {
+  font-size: var(--fs-sm);
+}
+
+.skills_box-head,
+.skills_box-tags {
+  gap: var(--space-md);
+}
+
+/***************************
+  Start Projects Section
+**************************/
+.projects_list {
+  grid-template-columns: repeat(auto-fit, minmax(min(325px, 100%), 1fr));
+  gap: var(--space-md);
+}
+
+.projects_item {
+  gap: var(--space-md);
+  align-content: flex-start;
+  grid-template-rows: auto 1fr;
+  transition: transform var(--fast-transition);
+}
+
+.projects_item:hover {
+  transform: translate(-3px, -3px);
+}
+
+.projects_item-image {
+  border-radius: var(--br-sm);
+}
+
+.projects_item-content {
+  gap: var(--space-md);
+}
+
+.projects_item-link {
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+  color: var(--text-white);
+  line-height: normal;
+}
+
+.projects_item-category {
+  font-size: var(--fs-sm);
+}
